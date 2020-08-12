@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.codered">
+    package="com.example.estationery">
 
     <application
         android:allowBackup="true"
@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProductActivity"></activity>
-        <activity android:name=".ChatActivity" />
-        <activity android:name=".BuyActivity" />
-        <activity android:name=".Register" />
-        <activity android:name=".PostActivity" />
+        <activity android:name="com.example.estationery.ProductActivity"></activity>
+        <activity android:name="com.example.estationery.ChatActivity" />
+        <activity android:name="com.example.estationery.BuyActivity" />
+        <activity android:name="com.example.estationery.Register" />
+        <activity android:name="com.example.estationery.PostActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.estationery.LoginActivity"
             android:theme="@style/SplashTheme" />
-        <activity android:name=".SellActivity" />
+        <activity android:name="com.example.estationery.SellActivity" />
         <activity
-            android:name=".AutoComplete"
+            android:name="com.example.estationery.AutoComplete"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.estationery.MainActivity" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.example.estationery.SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

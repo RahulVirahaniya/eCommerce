@@ -1,4 +1,4 @@
-package com.example.codered;
+package com.example.estationery;
 
 import android.content.Intent;
 import androidx.annotation.NonNull;
@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
     private ActionBarDrawerToggle t;
     private NavigationView nv;
     View header;
-    String[] fruitNames = {"Apple", "Orange", "strawberry", "Melon", "Kiwi", "Banana"};
-    int[] fruitImages = {R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool};
+    String[] itemName = {"Books", "Drafter", "SheetHolder", "Cycle", "Sports Equipment", "Bags"};
+    int[] itemImages = {R.drawable.book, R.drawable.drafter, R.drawable.sheet_holder, R.drawable.cycle, R.drawable.sports, R.drawable.bags};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         dl.addDrawerListener(t);
         t.syncState();
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setUserName();
 
         nv = findViewById(R.id.nv);
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 Intent adIntent= new Intent(MainActivity.this,BuyActivity.class);
-                adIntent.putExtra("catName",fruitNames[i]);
+                adIntent.putExtra("catName",itemName[i]);
                 startActivity(adIntent);
                 //Toast.makeText(getApplicationContext(), fruitNames[i], Toast.LENGTH_LONG).show();
 
@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
     private class CustomAdapter extends BaseAdapter {
         @Override
         public int getCount() {
-            return fruitImages.length;
+            return itemImages.length;
         }
 
         @Override
@@ -197,8 +197,8 @@ public class MainActivity extends AppCompatActivity {
             //getting view in row_data
             TextView name = view1.findViewById(R.id.fruits);
             ImageView image = view1.findViewById(R.id.images);
-            name.setText(fruitNames[i]);
-            image.setImageResource(fruitImages[i]);
+            name.setText(itemName[i]);
+            image.setImageResource(itemImages[i]);
             return view1;
 
 

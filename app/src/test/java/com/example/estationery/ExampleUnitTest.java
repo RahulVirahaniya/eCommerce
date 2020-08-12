@@ -1,4 +1,4 @@
-package com.example.codered;
+package com.example.estationery;
 
 import org.junit.Test;
 

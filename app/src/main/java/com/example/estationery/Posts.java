@@ -1,8 +1,4 @@
-package com.example.codered;
-
-import android.net.Uri;
-
-import java.net.URL;
+package com.example.estationery;
 
 public class Posts {
 

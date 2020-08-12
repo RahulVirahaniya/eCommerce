@@ -4,8 +4,9 @@
     <item android:drawable="@color/colorAccent" />
 
     <item>
-        <bitmap android:src="@drawable/books"
-            android:gravity="center" />
+        <bitmap android:src="@drawable/book"
+            android:gravity="center"
+            />
 
     </item>
 

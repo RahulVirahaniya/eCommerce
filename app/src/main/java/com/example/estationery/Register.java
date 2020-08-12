@@ -1,4 +1,4 @@
-package com.example.codered;
+package com.example.estationery;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;

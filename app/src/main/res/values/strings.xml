@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CodeRed</string>
+    <string name="app_name">e-Stationary</string>
     <string name="Open">open</string>
     <string name="Close">close</string>
     <string name="title_activity_login">Sign in</string>

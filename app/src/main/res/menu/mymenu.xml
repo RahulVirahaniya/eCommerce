@@ -4,6 +4,6 @@ xmlns:app="http://schemas.android.com/apk/res-auto">
 <item
     android:id="@+id/mybutton"
     app:showAsAction="always"
-    android:icon="@drawable/ic_launcher_foreground"
+    android:icon="@drawable/ic_my_menu"
     android:title="Choose College" />
 </menu>

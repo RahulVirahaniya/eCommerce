@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center|bottom"
     android:orientation="vertical"
+    android:background="@drawable/back8"
     >
 
     <ImageView
@@ -16,11 +17,12 @@
 
     <Button
         android:id="@+id/ButtonCamera"
-        android:layout_width="397dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-
-        android:background="@android:color/holo_blue_light"
+        android:background="@drawable/my_button"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="15dp"
         android:text="Open Camera"
         android:textColor="@android:color/white"
 

@@ -1,12 +1,11 @@
-package com.example.codered;
+package com.example.estationery;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-/**
- * Created by ssaurel on 02/12/2016.
- */
+
 public class SplashScreen extends AppCompatActivity {
 
     @Override

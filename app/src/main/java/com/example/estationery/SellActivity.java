@@ -1,4 +1,4 @@
-package com.example.codered;
+package com.example.estationery;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,10 +14,8 @@ import android.widget.TextView;
 public class SellActivity extends AppCompatActivity {
 
     GridView gridView2;
-
-    String[] fruitNames = {"Apple", "Orange", "strawberry", "Melon", "Kiwi", "Banana"};
-    int[] fruitImages = {R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool, R.drawable.deadpool};
-
+    String[] fruitNames = {"Books", "Drafter", "SheetHolder", "Cycle", "Sports Equipment", "Bags"};
+    int[] fruitImages = {R.drawable.book, R.drawable.drafter, R.drawable.sheet_holder, R.drawable.cycle, R.drawable.sports, R.drawable.bags};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
